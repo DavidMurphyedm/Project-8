@@ -133,7 +133,7 @@ function addDetails(results, id) {
     <hr>
     <p class="phone">${results[index].cell.replace(')-', ') ')}</p>
     <p class="address">
-      ${results[index].location.street + ', ' +
+      ${results[index].location.street.name + ', ' +
       abbreviation + ' ' + '&nbsp;' +
       results[index].location.postcode}</p>
     <p class="birthday">Birthday: ${birthday}</p>
