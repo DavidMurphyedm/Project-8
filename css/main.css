@@ -146,3 +146,9 @@ body {
   .address {
     text-transform: capitalize;
   }
+  .brand-logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 2rem;
+    padding-top: 1rem;
+  }
